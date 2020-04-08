@@ -1,14 +1,33 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+    "apps":
+
+     [{
+       "app_title": "App Name (Dialog)",
+       "app_desc": "Your App's description",
+       "app_icon": "https:// URL to Icon",
+       "app_header_image": "https:// URL to Header Image",
+       "app_uri": "http:// URL or Package Name - com.package.name",
+       "app_rating": "4.5",
+       "app_cta_text": "Install",
+       "app_price": "Free",
+       "app_adType": "dialog"
+     },
+
+     {
+       "app_interstitial_url": "IMAGE URL",
+       "app_uri": "http:// URL or Package Name - com.package.name",
+       "app_adType": "interstitial"
+     },
+      
+     {
+     "app_title": "App Name 3 (Native Ad)",
+     "app_desc": "Your App's Description",
+     "app_icon": "https:// URL to Icon",
+     "app_header_image": "https:// URL to Header Image",
+     "app_uri": "http:// URL or Package Name - com.package.name",
+     "app_rating": "4.5",
+     "app_cta_text": "Install",
+     "app_price": "Free",
+     "app_adType": "native"
+     }]
+    }
